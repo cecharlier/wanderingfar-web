@@ -1,0 +1,347 @@
+@font-face{font-family:james;src:url(../fonts/James_Fajardo.eot);}
+@font-face {font-family:james;src:url(http://:/) format("No-IE-404"),url(../fonts/James_Fajardo.ttf) format("truetype");}
+
+/* Main */
+* {color:white;}
+body {background:rgb(35,35,35);}
+h1 {font-size:48px;font-family:james;margin-bottom:0em;}
+h2 {font-family:james;font-size:48px;}
+a {font-weight:bold;color:rgb(254,203,0);}
+a:hover {color:rgb(224,173,0);text-decoration:none;}
+
+.clear {clear:both;}
+.last {border:none !important;}
+.spacer {margin-top:70px;}
+.container {padding:0 4%;}
+.text-page {margin:100px 0;}
+.alert-danger strong {color:#a94442;}
+.region ul {margin-bottom:50px;}
+
+/* Main Navigation */
+.navbar-nav {margin:0 -15px;}
+.navbar-inverse {background:none;border:none;}
+.navbar-header {background:rgba(0,0,0,.65);height:70px;padding:0 20px;border-bottom:1px solid black;}
+.navbar-toggle {border:none;background:url(/images/where.png) 0px 0px !important;height:60px;width:48px;padding:0;margin:10px 0 0 0;}
+.navbar-inverse .navbar-nav > li {background:rgba(0,0,0,.75);border-bottom:1px solid rgb(50,50,50);padding-left:10px;}
+.navbar-inverse .navbar-nav > li > a {font-size:18px;color:rgb(254,203,0);}
+.where {position:absolute;top:11px;left:auto;right:20px;background:url(/images/where.png) no-repeat;display:block;height:55px;width:48px;z-index:3;}
+.where:hover {background-position:0 -63px;cursor:pointer;}
+
+/* ----- Index Page ----- */
+.post-link {padding:0;}
+figure {position:relative;}
+figure div {border:5px solid black;border-top-width:0px;border-left-width:2px;border-right-width:3px;background-size:cover;height:225px;background-position:center;}
+figure > a {display:inline-block;position:absolute;height:100%;width:100%;text-decoration:none !important; }
+figcaption {font-family:james;font-size:48px;padding-left:20px;color:white;font-weight:normal;position:absolute;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.4);}
+
+
+/* --- Post --- */
+/* --- Carousel --- */
+.carousel {margin-top:70px;}
+.carousel .item {background-position:bottom center;border-bottom:10px solid rgb(50,50,50);}
+.carousel-inner {padding:0;}
+.carousel-indicators {bottom:10px;}
+.carousel-indicators li {width:25px !important;height:25px !important;border-radius:36px;border:3px solid rgba(0,0,0,.65);background:rgba(0,0,0,.6);}
+.carousel-indicators li:hover {background-color:rgba(150,150,150,.65);border-color:rgba(0,0,0,.45);}
+.carousel-indicators li.active {background-color:rgba(255,255,255,.65);border-color:rgba(255,255,255,.65);}
+.carousel.fade {opacity:1;}
+.carousel.fade .item {height:325px;z-index:1;background-size:cover;position:absolute;left:0 !important;top:0 !important;display:block !important;width:100%;opacity:0;-moz-transition: opacity ease-in-out 1s;-o-transition: opacity ease-in-out 1s;-webkit-transition: opacity ease-in-out 1s;transition: opacity ease-in-out 1s;}
+.carousel.fade .item:first-child {top:auto;position:relative;}
+.carousel.fade .item.active {z-index:2;opacity:1;-moz-transition:opacity ease-in-out 1s;-o-transition:opacity ease-in-out 1s;-webkit-transition:opacity ease-in-out 1s;transition:opacity ease-in-out 1s;}
+.carousel-caption {text-align:left;background:rgba(0,0,0,.3);color:white;padding:15px 20px 30px 30px;border-bottom:1px solid rgb(100,100,100);position:relative;bottom:auto;left:auto;right:auto;z-index:11;}
+.carousel-caption img {display:block;margin:auto;}
+.carousel-caption h1 {text-align:center;margin-top:10px;font-size:44px;font-weight:normal;padding-top:180px;background-repeat:no-repeat;background-position:center 0px;}
+.carousel-caption p {line-height:28px;}
+.pin-it {position:absolute;bottom:70px;left:50%;margin:-20px;}
+
+/* --- Break Section --- */
+.break {background-attachment:fixed;background-position:center top;background-size:cover;background-repeat:no-repeat;height:400px;;position:relative;margin-bottom:0;margin-top:100px;}
+.break img {position:absolute;bottom:-2px;right:10%;}
+
+@media screen and (max-device-width: 1024px){
+  .break {background-attachment:scroll;}
+  .break img {width:auto;}
+}
+@media screen and (max-device-width: 480px) {
+  .break {background-attachment:scroll;height:250px;}
+  .break img {width:50%;}
+}
+
+/* --- Places --- */
+.about-us .item:nth-child(1) {background-image:url(../images/genie.jpg);background-position:center bottom;}
+.about-us .item:nth-child(2) {background-image:url(../images/avila.jpg);background-position:right bottom;}
+.about-us .item:nth-child(3) {background-image:url(../images/pioXI.jpg);background-position:right bottom;}
+.about-us .item:nth-child(4) {background-image:url(../images/scuba.jpg);background-position:75% bottom;}
+.about-us .item:nth-child(5) {background-image:url(../images/aitBen.jpg);background-position:right bottom;}
+.about-us .break {background-image:url(../images/bigNews.jpg);background-position:center bottom;}
+
+.amazon .item:nth-child(1) {background-image:url(../brazil/images/1.jpg);background-position:center bottom;}
+.amazon .item:nth-child(2) {background-image:url(../brazil/images/2.jpg);background-position:center bottom;}
+.amazon .item:nth-child(3) {background-image:url(../brazil/images/3.jpg);background-position:center bottom;}
+.amazon .item:nth-child(4) {background-image:url(../brazil/images/4.jpg);background-position:center bottom;}
+.amazon .item:nth-child(5) {background-image:url(../brazil/images/5.jpg);background-position:center bottom;}
+.amazon .break {background-image:url(../brazil/images/break.jpg);background-position:right bottom;}
+.amazon .break img {width:40%;}
+
+.amritsar .item:nth-child(1) {background-image:url(../india/images/1.jpg);background-position:center bottom;}
+.amritsar .item:nth-child(2) {background-image:url(../india/images/2.jpg);background-position:30% bottom;}
+.amritsar .item:nth-child(3) {background-image:url(../india/images/3.jpg);background-position:20% bottom;}
+.amritsar .item:nth-child(4) {background-image:url(../india/images/4.jpg);background-position:right bottom;}
+.amritsar .item:nth-child(5) {background-image:url(../india/images/5.jpg);background-position:center bottom;}
+.amritsar .break {background-image:url(../india/images/break.jpg);background-position:center bottom;}
+
+.beijing .item:nth-child(1) {background-image:url(../china/images/1.jpg);background-position:center bottom;}
+.beijing .item:nth-child(2) {background-image:url(../china/images/2.jpg);background-position:center bottom;}
+.beijing .item:nth-child(3) {background-image:url(../china/images/3.jpg);background-position:40% bottom;}
+.beijing .item:nth-child(4) {background-image:url(../china/images/4.jpg);background-position:center bottom;}
+.beijing .item:nth-child(5) {background-image:url(../china/images/5.jpg);background-position:center bottom;}
+.beijing .break {background-image:url(../china/images/break.jpg);background-position:right bottom;}
+
+.chefchaouen .item:nth-child(1) {background-image:url(../morocco/images/1.jpg);background-position:center bottom;}
+.chefchaouen .item:nth-child(2) {background-image:url(../morocco/images/2.jpg);background-position:center bottom;}
+.chefchaouen .item:nth-child(3) {background-image:url(../morocco/images/3.jpg);background-position:right bottom;}
+.chefchaouen .item:nth-child(4) {background-image:url(../morocco/images/4.jpg);background-position:right bottom;}
+.chefchaouen .item:nth-child(5) {background-image:url(../morocco/images/5.jpg);background-position:center bottom;}
+.chefchaouen .break {background-image:url(../morocco/images/break.jpg);background-position:right bottom;}
+
+.coffee-bay .item:nth-child(1) {background-image:url(../south-africa/images/1.jpg);background-position:center bottom;}
+.coffee-bay .item:nth-child(2) {background-image:url(../south-africa/images/2.jpg);background-position:80% bottom;}
+.coffee-bay .item:nth-child(3) {background-image:url(../south-africa/images/3.jpg);background-position:60% bottom;}
+.coffee-bay .item:nth-child(4) {background-image:url(../south-africa/images/4.jpg);background-position:85% bottom;}
+.coffee-bay .item:nth-child(5) {background-image:url(../south-africa/images/5.jpg);background-position:right bottom;}
+.coffee-bay .break {background-image:url(../south-africa/images/break.jpg);background-position:70% bottom;}
+
+.granada .item:nth-child(1) {background-image:url(../spain/images/1.jpg);background-position:center bottom;}
+.granada .item:nth-child(2) {background-image:url(../spain/images/2.jpg);background-position:right bottom;}
+.granada .item:nth-child(3) {background-image:url(../spain/images/3.jpg);background-position:center bottom;}
+.granada .item:nth-child(4) {background-image:url(../spain/images/4.jpg);background-position:center bottom;}
+.granada .item:nth-child(5) {background-image:url(../spain/images/5.jpg);background-position:center bottom;}
+.granada .break {background-image:url(../spain/images/break.jpg);background-position:right bottom;}
+
+.northern-cayes .item:nth-child(1) {background-image:url(../belize/images/1.jpg);background-position:25% bottom;}
+.northern-cayes .item:nth-child(2) {background-image:url(../belize/images/2.jpg);background-position:right bottom;}
+.northern-cayes .item:nth-child(3) {background-image:url(../belize/images/3.jpg);background-position:20% bottom;}
+.northern-cayes .item:nth-child(4) {background-image:url(../belize/images/4.jpg);background-position:35% bottom;}
+.northern-cayes .item:nth-child(5) {background-image:url(../belize/images/5.jpg);background-position:35% bottom;}
+.northern-cayes .break {background-image:url(../belize/images/break.jpg);background-position:38% bottom;}
+
+.tdp .item:nth-child(1) {background-image:url(../chile/images/1.jpg);background-position:center bottom;}
+.tdp .item:nth-child(2) {background-image:url(../chile/images/2.jpg);background-position:20% bottom;}
+.tdp .item:nth-child(3) {background-image:url(../chile/images/3.jpg);background-position:left bottom;}
+.tdp .item:nth-child(4) {background-image:url(../chile/images/4.jpg);background-position:right bottom;}
+.tdp .item:nth-child(5) {background-image:url(../chile/images/5.jpg);background-position:right bottom;}
+.tdp .break {background-image:url(../chile/images/break.jpg);background-position:right bottom;}
+
+/* Tiny Maps */
+.belize .carousel-caption h1 {background-image:url(../images/country/belize.png);padding-top:150px;}
+.bolivia .carousel-caption h1 {background-image:url(../images/country/bolivia.png);}
+.brazil .carousel-caption h1 {background-image:url(../images/country/brazil.png);padding-top:200px !important;}
+.cambodia .carousel-caption h1 {background-image:url(../images/country/cambodia.png);}
+.chile .carousel-caption h1 {background-image:url(../images/country/chile.png);padding-top:210px !important;}
+.china .carousel-caption h1 {background-image:url(../images/country/china.png);padding-top:160px;}
+.egypt .carousel-caption h1 {background-image:url(../images/country/egypt.png);}
+.india .carousel-caption h1 {background-image:url(../images/country/india.png);}
+.morocco .carousel-caption h1 {background-image:url(../images/country/morocco.png);padding-top:200px !important;}
+.south-africa .carousel-caption h1 {background-image:url(../images/country/southAfrica.png);padding-top:210px;}
+.spain .carousel-caption h1 {background-image:url(../images/country/spain.png);padding-top:210px !important;}
+.usa .carousel-caption h1 {background-image:url(../images/country/usa.png);}
+.globe .carousel-caption h1 {background-image:url(../images/country/globe.png);padding-top:160px !important;}
+
+/* --- Article --- */
+.article-header {color:white;padding:50px 15px 0px 15px;font-size:14px;}
+.article-header h1 {font-family:james;font-weight:normal;font-size:44px;margin-bottom:20px;line-height:1em;}
+.sharing {position:relative;margin-bottom:20px;}
+.fb-like {position:absolute;top:-5px;}
+.article-header h5 {font-size: 14px;font-weight:bold;}
+.story {line-height:2em;margin-bottom:40px;}
+blockquote {border:none;background:url(../images/quote.png) no-repeat;padding:10px 0px 0px 55px;margin:20px 0 50px 0;font-size:36px;line-height:.8em;font-family:james;}
+.embed-responsive {margin:30px 0;}
+
+/* --- Gallery Section --- */
+.photo-gallery {margin:100px 0;}
+.chromatic-gallery {overflow:hidden;}
+.chromatic-gallery div {height:250px;}
+.chromatic-zoom {z-index:1031;}
+
+/* --- Movie Section --- */
+.movie-section {margin:100px 0;}
+/* --- Gallery Section --- */
+.comments {margin-bottom:150px;}
+
+/* Footer */
+footer {border-top:10px solid rgb(55,55,55);background:rgb(10,10,10) url(../images/mapTiny.gif) no-repeat 95% 40%;padding-top:75px;}
+footer .container {padding:0 4%;margin:0;}
+footer iframe {max-width:100%;}
+.about {background:url(../images/learnMore.gif) no-repeat 0px 0px;padding:38px 0 55px 0;}
+.about li {list-style-type:none;padding-bottom:10px;margin-bottom:10px;margin-left:0;border-bottom:1px solid rgb(50,50,50);}
+.about a {padding-left:10px;}
+.signup {padding-top:30px;}
+.signup a {font-family:james;font-size:36px;line-height:24px;margin-left:-10px;}
+
+.connect {background:url(../images/connect.gif) no-repeat 0px 0px;padding:38px 0 55px 0;}
+.connect li {list-style-type:none;margin-left:0;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid rgb(50,50,50);}
+.credits {background:rgb(20,20,20);border-top:1px solid rgb(50,50,50);font-size:11px;padding:15px 4%;text-align:right;}
+
+/* ------------------------------------- */
+/*            MEDIA QUERIES              */
+/* ------------------------------------- */
+
+/* Phones in Landscape */
+@media (min-width: 480px) {
+  figure div {height:300px;}
+  .carousel.fade .item {height:375px;}
+  .carousel-caption h1 {font-size:56px;}
+  .article-header h1 {font-size:56px;}
+  .south-africa  .carousel-caption h1 {padding-top:180px !important;}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel.fade .item {height:500px;}
+  .article-header {padding-top:100px;}
+  .article-header h5 {font-size:17px;}
+
+  /* Navigation */
+  .navbar-header {background:rgba(0,0,0,.65);border-bottom:1px solid black;width:100%;height:70px;position:absolute;left:0;top:0;z-index:2;}
+  .navbar-inverse .navbar-nav>li {background:none;border:none;padding:0px;display:inline;position:absolute;float:none;}
+  .navbar-inverse .navbar-nav>li>a {padding:0;position:absolute;}
+
+  .map {position:relative;background:none;display:block;float:none;width:768px;height:505px;margin:-505px auto 0px auto;background:url(../images/map768.png) no-repeat bottom center;}
+  .map a {color:white;background:url(/images/pin.png) no-repeat;display:block;height:31px;width:25px;font-size:0px !important;position:absolute;}
+  .map a.up {background-image:url(/images/pinUp.png);}
+
+  .amazon {top:325px;left:219px;}
+  .amritsar {top:246px;left:499px;}
+  .ankorWat {top:292px;left:480px;}
+  .aswan {top:144px;left:451px;}
+  .bejing {top:228px;left:585px;}
+  .chefchaouen {top:268px;left:332px;}
+  .coffeeBay {top:390px;left:398px;}
+  .granada {top:233px;left:337px;}
+  .fez {top:303px;left:442px;}
+  .northernCayes {top:279px;left:158px;}
+  .sucre {top:265px;left:283px;}
+  .tdp {top:439px;left:190px;}
+
+  .scroll-container {position:relative;}
+  .scroll-item {position:absolute;width:225px;}
+  .photo-top {top:0px;}
+  .photo-bottom {bottom:400px;top:auto;}
+  .photo-fixed {position:fixed;top:90px;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .carousel {margin-top:0px;}
+  .carousel.fade .item {height:700px;}
+  .carousel-indicators {bottom:29px;right:100px;left:auto;width:150px;margin-left:0;}
+  .carousel-caption {background:rgba(0,0,0,.5);border:none;position:absolute;padding:15px 40px 30px 50px;bottom:10px;left:100px;width:400px;}
+  .carousel-caption h1 {font-size:48px;}
+  .pin-it {bottom:51px;left:auto;right:285px;}
+
+  .caption-right .carousel-caption {left:auto;right:100px;}
+  .caption-right .carousel-indicators {left:100px;right:auto;}
+  .caption-right  .pin-it {bottom:51px;left:285px;right:auto;}
+
+  .article-header {padding-top:120px;}
+  .article-header h1 {font-size:72px;}
+  .south-africa .carousel-caption h1 {padding-top:190px !important;}
+
+  /* Navigation */
+  .navbar-header {padding:0 4%;}
+  .where {right:4%;}
+  .map {width:960px;height:612px;margin:-612px auto 0 auto;background:url(../images/map960.png) no-repeat bottom center;}
+
+  .amazon {top:397px;left:274px;}
+  .amritsar {top:300px;left:628px;}
+  .ankorWat {top:403px;left:542px;}
+  .aswan {top:244px;left:551px;}
+  .bejing {top:275px;left:735px;}
+  .chefchaouen {top:317px;left:419px;}
+  .coffeeBay {top:476px;left:505px;}
+  .granada {top:281px;left:424px;}
+  .fez {top:403px;left:542px;}
+  .northernCayes {top:339px;left:203px;}
+  .sucre {top:365px;left:283px;}
+  .tdp {top:540px;left:241px;}
+
+  /* Index photos */
+  figcaption {opacity:0;-webkit-transition: all 1s linear;-o-transition: all 1s linear;-ms-transition: all 1s linear;-moz-transition: all 1s linear;transition: all 1s linear;}
+  figure a:hover figcaption {opacity: 1;-webkit-transition: all 1s linear;-o-transition: all 1s linear;-ms-transition: all 1s linear;-moz-transition: all 1s linear;transition: all 1s linear;}
+
+  .scroll-item {width:260px;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .brazil .carousel-caption h1 {padding-top:180px !important;}
+  .carousel.fade .item {height:775px;}
+
+  /* Index photos */
+  figure div {height:300px;}
+
+  /* Slide Description */
+  .carousel-caption {width:395px;height:575px;padding-top:25px;}
+
+
+  .carousel-indicators {right:100px;}
+  .caption-right .carousel-indicators {left:100px;}
+
+  .carousel-caption {left:100px;}
+  .caption-right .carousel-caption {right:100px;}
+
+  .pin-it {right:285px;}
+  .caption-right  .pin-it {left:285px;}
+
+
+
+
+
+  .scroll-item {width:320px;}
+}
+
+/* Large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .container {width:1300px;}
+  .carousel.fade .item {height:1000px;}
+
+  .carousel-indicators {right:300px;}
+  .caption-right .carousel-indicators {left:300px;}
+
+  .carousel-caption {left:15%;}
+  .caption-right .carousel-caption {right:15%;}
+
+  .pin-it {right:485px;}
+  .caption-right  .pin-it {left:485px;}
+
+  .break {height:550px;}
+  .break img {right:20%;}
+
+  figure div {height:400px;}
+  /* Navigation */
+  .map {width:1600px;height:900px;margin:-900px auto 0 auto;background:url(../images/map1600.png) no-repeat bottom center;}
+
+  .amazon {top:575px;left:480px;}
+  .amritsar {top:415px;left:1068px;}
+  .ankorWat {top:485px;left:1200px;}
+  .aswan {top:461px;left:880px;}
+  .bejing {top:374px;left:1248px;}
+  .chefchaouen {top:425px;left:720px;}
+  .coffeeBay {top:711px;left:863px;}
+  .fez {top:387px;left:727px;}
+  .granada {top:387px;left:727px;}
+  .northernCayes {top:485px;left:360px;}
+  .sucre {top:649px;left:457px;}
+  .tdp {top:818px;left:422px;}
+
+  .scroll-item {width:300px;}
+}
+
+/* Large devices (large desktops, 1921px and up) */
+@media (min-width: 1921px) {
+  /* Navigation */
+
+  .scroll-item {width:300px;}
+}
+
+
