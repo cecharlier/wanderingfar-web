@@ -21,10 +21,10 @@ a:hover {color:rgb(224,173,0);text-decoration:none;}
 .navbar-nav {margin:0 -15px;}
 .navbar-inverse {background:none;border:none;}
 .navbar-header {background:rgba(0,0,0,.65);height:70px;padding:0 20px;border-bottom:1px solid black;}
-.navbar-toggle {border:none;background:url(/images/where.png) 0px 0px !important;height:60px;width:48px;padding:0;margin:10px 0 0 0;}
+.navbar-toggle {border:none;background:url(images/where.png) 0px 0px !important;height:60px;width:48px;padding:0;margin:10px 0 0 0;}
 .navbar-inverse .navbar-nav > li {background:rgba(0,0,0,.75);border-bottom:1px solid rgb(50,50,50);padding-left:10px;}
 .navbar-inverse .navbar-nav > li > a {font-size:18px;color:rgb(254,203,0);}
-.where {position:absolute;top:11px;left:auto;right:20px;background:url(/images/where.png) no-repeat;display:block;height:55px;width:48px;z-index:3;}
+.where {position:absolute;top:11px;left:auto;right:20px;background:url(images/where.png) no-repeat;display:block;height:55px;width:48px;z-index:3;}
 .where:hover {background-position:0 -63px;cursor:pointer;}
 
 /* ----- Index Page ----- */
@@ -68,12 +68,12 @@ figcaption {font-family:james;font-size:48px;padding-left:20px;color:white;font-
 }
 
 /* --- Places --- */
-.about-us .item:nth-child(1) {background-image:url(../images/genie.jpg);background-position:center bottom;}
-.about-us .item:nth-child(2) {background-image:url(../images/avila.jpg);background-position:right bottom;}
-.about-us .item:nth-child(3) {background-image:url(../images/pioXI.jpg);background-position:right bottom;}
-.about-us .item:nth-child(4) {background-image:url(../images/scuba.jpg);background-position:75% bottom;}
-.about-us .item:nth-child(5) {background-image:url(../images/aitBen.jpg);background-position:right bottom;}
-.about-us .break {background-image:url(../images/bigNews.jpg);background-position:center bottom;}
+.about-us .item:nth-child(1) {background-image:url(images/genie.jpg);background-position:center bottom;}
+.about-us .item:nth-child(2) {background-image:url(images/avila.jpg);background-position:right bottom;}
+.about-us .item:nth-child(3) {background-image:url(images/pioXI.jpg);background-position:right bottom;}
+.about-us .item:nth-child(4) {background-image:url(images/scuba.jpg);background-position:75% bottom;}
+.about-us .item:nth-child(5) {background-image:url(images/aitBen.jpg);background-position:right bottom;}
+.about-us .break {background-image:url(images/bigNews.jpg);background-position:center bottom;}
 
 .amazon .item:nth-child(1) {background-image:url(../brazil/images/1.jpg);background-position:center bottom;}
 .amazon .item:nth-child(2) {background-image:url(../brazil/images/2.jpg);background-position:center bottom;}
@@ -133,19 +133,19 @@ figcaption {font-family:james;font-size:48px;padding-left:20px;color:white;font-
 .tdp .break {background-image:url(../chile/images/break.jpg);background-position:right bottom;}
 
 /* Tiny Maps */
-.belize .carousel-caption h1 {background-image:url(../images/country/belize.png);padding-top:150px;}
-.bolivia .carousel-caption h1 {background-image:url(../images/country/bolivia.png);}
-.brazil .carousel-caption h1 {background-image:url(../images/country/brazil.png);padding-top:200px !important;}
-.cambodia .carousel-caption h1 {background-image:url(../images/country/cambodia.png);}
-.chile .carousel-caption h1 {background-image:url(../images/country/chile.png);padding-top:210px !important;}
-.china .carousel-caption h1 {background-image:url(../images/country/china.png);padding-top:160px;}
-.egypt .carousel-caption h1 {background-image:url(../images/country/egypt.png);}
-.india .carousel-caption h1 {background-image:url(../images/country/india.png);}
-.morocco .carousel-caption h1 {background-image:url(../images/country/morocco.png);padding-top:200px !important;}
-.south-africa .carousel-caption h1 {background-image:url(../images/country/southAfrica.png);padding-top:210px;}
-.spain .carousel-caption h1 {background-image:url(../images/country/spain.png);padding-top:210px !important;}
-.usa .carousel-caption h1 {background-image:url(../images/country/usa.png);}
-.globe .carousel-caption h1 {background-image:url(../images/country/globe.png);padding-top:160px !important;}
+.belize .carousel-caption h1 {background-image:url(images/country/belize.png);padding-top:150px;}
+.bolivia .carousel-caption h1 {background-image:url(images/country/bolivia.png);}
+.brazil .carousel-caption h1 {background-image:url(images/country/brazil.png);padding-top:200px !important;}
+.cambodia .carousel-caption h1 {background-image:url(images/country/cambodia.png);}
+.chile .carousel-caption h1 {background-image:url(images/country/chile.png);padding-top:210px !important;}
+.china .carousel-caption h1 {background-image:url(images/country/china.png);padding-top:160px;}
+.egypt .carousel-caption h1 {background-image:url(images/country/egypt.png);}
+.india .carousel-caption h1 {background-image:url(images/country/india.png);}
+.morocco .carousel-caption h1 {background-image:url(images/country/morocco.png);padding-top:200px !important;}
+.south-africa .carousel-caption h1 {background-image:url(images/country/southAfrica.png);padding-top:210px;}
+.spain .carousel-caption h1 {background-image:url(images/country/spain.png);padding-top:210px !important;}
+.usa .carousel-caption h1 {background-image:url(images/country/usa.png);}
+.globe .carousel-caption h1 {background-image:url(images/country/globe.png);padding-top:160px !important;}
 
 /* --- Article --- */
 .article-header {color:white;padding:50px 15px 0px 15px;font-size:14px;}
@@ -154,7 +154,7 @@ figcaption {font-family:james;font-size:48px;padding-left:20px;color:white;font-
 .fb-like {position:absolute;top:-5px;}
 .article-header h5 {font-size: 14px;font-weight:bold;}
 .story {line-height:2em;margin-bottom:40px;}
-blockquote {border:none;background:url(../images/quote.png) no-repeat;padding:10px 0px 0px 55px;margin:20px 0 50px 0;font-size:36px;line-height:.8em;font-family:james;}
+blockquote {border:none;background:url(images/quote.png) no-repeat;padding:10px 0px 0px 55px;margin:20px 0 50px 0;font-size:36px;line-height:.8em;font-family:james;}
 .embed-responsive {margin:30px 0;}
 
 /* --- Gallery Section --- */
@@ -169,16 +169,16 @@ blockquote {border:none;background:url(../images/quote.png) no-repeat;padding:10
 .comments {margin-bottom:150px;}
 
 /* Footer */
-footer {border-top:10px solid rgb(55,55,55);background:rgb(10,10,10) url(../images/mapTiny.gif) no-repeat 95% 40%;padding-top:75px;}
+footer {border-top:10px solid rgb(55,55,55);background:rgb(10,10,10) url(images/mapTiny.gif) no-repeat 95% 40%;padding-top:75px;}
 footer .container {padding:0 4%;margin:0;}
 footer iframe {max-width:100%;}
-.about {background:url(../images/learnMore.gif) no-repeat 0px 0px;padding:38px 0 55px 0;}
+.about {background:url(images/learnMore.gif) no-repeat 0px 0px;padding:38px 0 55px 0;}
 .about li {list-style-type:none;padding-bottom:10px;margin-bottom:10px;margin-left:0;border-bottom:1px solid rgb(50,50,50);}
 .about a {padding-left:10px;}
 .signup {padding-top:30px;}
 .signup a {font-family:james;font-size:36px;line-height:24px;margin-left:-10px;}
 
-.connect {background:url(../images/connect.gif) no-repeat 0px 0px;padding:38px 0 55px 0;}
+.connect {background:url(images/connect.gif) no-repeat 0px 0px;padding:38px 0 55px 0;}
 .connect li {list-style-type:none;margin-left:0;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid rgb(50,50,50);}
 .credits {background:rgb(20,20,20);border-top:1px solid rgb(50,50,50);font-size:11px;padding:15px 4%;text-align:right;}
 
@@ -206,9 +206,9 @@ footer iframe {max-width:100%;}
   .navbar-inverse .navbar-nav>li {background:none;border:none;padding:0px;display:inline;position:absolute;float:none;}
   .navbar-inverse .navbar-nav>li>a {padding:0;position:absolute;}
 
-  .map {position:relative;background:none;display:block;float:none;width:768px;height:505px;margin:-505px auto 0px auto;background:url(../images/map768.png) no-repeat bottom center;}
-  .map a {color:white;background:url(/images/pin.png) no-repeat;display:block;height:31px;width:25px;font-size:0px !important;position:absolute;}
-  .map a.up {background-image:url(/images/pinUp.png);}
+  .map {position:relative;background:none;display:block;float:none;width:768px;height:505px;margin:-505px auto 0px auto;background:url(images/map768.png) no-repeat bottom center;}
+  .map a {color:white;background:url(images/pin.png) no-repeat;display:block;height:31px;width:25px;font-size:0px !important;position:absolute;}
+  .map a.up {background-image:url(images/pinUp.png);}
 
   .amazon {top:325px;left:219px;}
   .amritsar {top:246px;left:499px;}
@@ -250,7 +250,7 @@ footer iframe {max-width:100%;}
   /* Navigation */
   .navbar-header {padding:0 4%;}
   .where {right:4%;}
-  .map {width:960px;height:612px;margin:-612px auto 0 auto;background:url(../images/map960.png) no-repeat bottom center;}
+  .map {width:960px;height:612px;margin:-612px auto 0 auto;background:url(images/map960.png) no-repeat bottom center;}
 
   .amazon {top:397px;left:274px;}
   .amritsar {top:300px;left:628px;}
@@ -319,7 +319,7 @@ footer iframe {max-width:100%;}
 
   figure div {height:400px;}
   /* Navigation */
-  .map {width:1600px;height:900px;margin:-900px auto 0 auto;background:url(../images/map1600.png) no-repeat bottom center;}
+  .map {width:1600px;height:900px;margin:-900px auto 0 auto;background:url(images/map1600.png) no-repeat bottom center;}
 
   .amazon {top:575px;left:480px;}
   .amritsar {top:415px;left:1068px;}
